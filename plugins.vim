@@ -28,6 +28,9 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'chriskempson/tomorrow-theme'
 Plugin 'rakr/vim-one'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'ryanoasis/vim-devicons'
+Plugin 'ryanoasis/nerd-fonts'
+
 
 
 " All of your Plugins must be added before the following line
