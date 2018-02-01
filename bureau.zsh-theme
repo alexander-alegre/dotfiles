@@ -68,7 +68,7 @@ bureau_git_prompt () {
   local _status=$(bureau_git_status)
   local _result=""
   if [[ "${_branch}x" != "x" ]]; then
-    _result="$ZSH_THEME_GIT_PROMPT_PREFIX$_branch"
+    _result="$ZSH_THEME_GIT_PROMPT_PREFIX $_branch"
     if [[ "${_status}x" != "x" ]]; then
       _result="$_result $_status"
     fi
